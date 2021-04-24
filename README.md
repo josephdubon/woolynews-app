@@ -1,19 +1,8 @@
-# Team Wool Capstone App
+# Wooly News App
 
 TODO: project description here
 
-## SE Q4 Team Wool
-
-Members:
-
-- Chris Stranger <chrisstranger1@gmail.com>
-- Santiago Toro <tiagoelcoder@gmail.com>
-- Eleanor Hall <ruthhall97@gmail.com>
-- Joseph Dubon <josephdubon@pm.me>
-
-## Approved Project Functionality
-
-Approved by: Kano
+## Project Functionality
 
 - Allows users to sign in/ signout / create a user / have profile pages that links to what they've contributed
 - Allows users to write news articles and post pictures with the articles
@@ -22,12 +11,13 @@ Approved by: Kano
 - Allow comments on each article
 - Allows forums/discussions on each genre
 - Allows moderators for specific genres who can remove articles and forum posts.
-- I would like some sort of "like" functionality for articles--up-votes/down-votes if you want, but something for
+- "like" functionality for articles--up-votes/down-votes if you want, but something for
   immediate reactions
 
 ## Installation
 
 ```console
+python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
